@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.17.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "webpack-notifier": "^1.5.0"
+  },
+  "scripts": {
+    "dev-server": "./node_modules/.bin/encore dev-server",
+    "dev": "./node_modules/.bin/encore dev",
+    "webpack": "./node_modules/.bin/encore dev --watch",
+    "prod": "./node_modules/.bin/encore production"
+  }
+}
