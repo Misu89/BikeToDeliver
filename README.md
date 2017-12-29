@@ -1,4 +1,4 @@
-.checkout
+Bike To Deliver
 =========
 
-A Symfony project created on December 28, 2017, 8:38 pm.
+- Symfony version: 3.4.2
