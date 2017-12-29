@@ -11,8 +11,16 @@ class DefaultController extends Controller
     /**
      * @Route("/", name="homepage")
      */
-    public function indexAction(Request $request)
+    public function homepageAction(Request $request)
     {
-        return $this->render('web/index.html.twig');
+        return $this->render('web/homepage.html.twig');
+    }
+
+    /**
+     * @Route("/bicicletas", name="bikes")
+     */
+    public function bikesAction(Request $request)
+    {
+        return $this->render('web/bikes.html.twig');
     }
 }
